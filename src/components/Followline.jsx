@@ -37,9 +37,9 @@ const H1 = styled.h1`
       white-space: nowrap;
       position: absolute;
       transform-origin: bottom;       
-      ${({ position }) => position ? "left: 112px; bottom: 33vh; transform: rotate(270deg);" : "right:112px; top: 30vh; transform: rotate(90deg);"}
+      ${({ position }) => position ? "left: 112px; bottom: 33vh; transform: rotate(270deg);" : "right:112px; top: 31vh; transform: rotate(90deg);"}
       @media (max-width: 899px) {
-            ${({ position }) => position ? "left: 6%; bottom: 33vh; transform: rotate(270deg);" : "right:6%; top: 30vh; transform: rotate(90deg);"}
+            ${({ position }) => position ? "left: 6.5%; bottom: 33vh; transform: rotate(270deg);" : "right:6.5%; top: 30vh; transform: rotate(90deg);"}
       }
 
 `

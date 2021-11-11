@@ -75,6 +75,7 @@ const Navbar = styled.ul`
                   padding: 10px 0px;
                   padding-left: 10%;
                   border: 0.5px solid lightgreen;
+                  ${({ topli }) => topli ? "" : "border-top: none;"}
 
             }
             li a {
@@ -129,10 +130,10 @@ const HamMenu = styled.a`
 `
 
 const LiNav = styled.li`
-      @media (max-width: 899px) {
+      /* @media (max-width: 899px) {
             ${({ topli }) => topli ? "border-top: none;" : ""}
       
-      }
+      } */
 `
 
 // const Atag = styled.Link`
